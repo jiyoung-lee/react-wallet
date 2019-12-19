@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import Index from './components/Index';
 
-function App() {
-  return (
-    <div className="App">
-      화이팅!!!
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Index></Index>
+      </div>
+    );
+  }
 }
 
 export default App;
